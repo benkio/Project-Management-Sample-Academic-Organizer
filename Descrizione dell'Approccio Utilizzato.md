@@ -98,6 +98,7 @@ Viene illustrata una lista dei meeting necessari in maniera ridotta. In particol
  8. 5/8/15 - "Analisi dei Rischi" - [Risk Analysis] - Report RA#001
  9. 7/8/15 - "Scelta del ciclo di sviluppo del progetto e Raffinamento del POS" - [PMLC Model + POS] - Report LCM#001
  10. 11/8/15 - "Versione finale del POS e presentazione dello stesso per il senior management" - [POS] - Report POS#001
+11. 20/08/15 - "JPPS - Planning Kickoff"
 
 Conditions of Satisfaction
 -------
@@ -127,7 +128,11 @@ Quando infine il cliente si dira' soddisfatto del prodotto si procedera' con la 
 Analisi dei Rischi (Risk Analysis)
 --------------------------
 In questa sezione verranno presi in esame i rischi principali correlati con il progetto, di conseguenza saranno classificati per gravita e per la probabilita' che questi si verifichino. In questo modo si sara' in grado di stimare effettivamente quanto e' il rischio complessivo dell'intero progetto e quindi anche influenzare la prioritizzazione e realizzazione delle attivita' da svolgere relative ai requisiti al fine di ridurre al minimo la possibilita' di rischi, oppure influenzare effettivamente la scelta del senior management riguardo la partenza o meno dell'intero progetto.
-Essendo questo un esercizio didattico sul management si e' comunque deciso di individuare solo i rischi di malfunzionamento principali al fine di snellire la trattazione e concentrarsi adeguatamente anche sulle successive parti dell'elaborato. Tutto questo deve quindi essere considerato come un semplice esempio di una vera analisi dei rischi, che pero' segue in ogni caso la metodologia che viene illustrata, in quando realmente applicata anche in contesti reali.
+Essendo questo un esercizio didattico sul management si e' comunque deciso di individuare solo i rischi di malfunzionamento principali al fine di snellire la trattazione e concentrarsi adeguatamente anche sulle successive parti dell'elaborato. Inoltre e' utile questa prima analisi dei rischi per due motivi:
+*  Come template per l'analisi dei rischi che deve essere fatta in fase di planning per ogni iterazione.
+*  Perche' i rischi principali che si possono riscontrare possono essere utili per la stesura del POS e possono anche portare a nuovi requisiti o ad un'estensione di quelli gia' presenti.
+
+ Tutto questo deve quindi essere considerato come un semplice esempio di una vera analisi dei rischi, che pero' segue in ogni caso la metodologia che viene illustrata, in quando realmente applicata anche in contesti reali.
 
 ### Failure Mode, Effects, and Criticality Analysis ###
 Per l'individuazione dei rischi si e' deciso di utilizzare un semplice approccio molto conosciuto per svolgere questa analisi che coincide semplicemente nel:
@@ -135,24 +140,24 @@ Per l'individuazione dei rischi si e' deciso di utilizzare un semplice approccio
 1.  Identificazione tutti i possibili malfunzionamenti o difetti dei componenti del prodotto.
 2.  Per ogni modo di malfunzionamento/difetto dei componenti descrizione degli effetti e delle possibili cause.
 3.  Per ogni modo di malfunzionamento/difetto ricerca delle azioni possibili per ridurne gli effetti.
-4.  Definizione delle scale di punteggio dei tre parametri: 
+4.  Definizione delle scale di punteggio dei tre parametri:
   *  Probabilità di accadimento del malfunzionamento/difetto base
   *  Severità degli effetti del malfunzionamento/difetto base
   *  Rilevabilità del malfunzionamento/difetto base.
 5.  Attribuzione dei punteggi ai parametri.
 6.  Valutare e decidere gli interventi da intraprendere.
 
-#### Identificazione Malfunzionamenti ####
-Vengono qui illustrati dei macro rischi (Effetti e cause) che sono strettamente correlati ai COS e che quindi possono fortente portare a una insoddisfazione degli stessi, qui di seguito i due principali rischi: 
+### Identificazione Malfunzionamenti ###
+Vengono qui illustrati dei macro rischi (Effetti e cause) che sono strettamente correlati ai COS e che quindi possono fortente portare a una insoddisfazione degli stessi, qui di seguito i due principali rischi:
 
 1. *Problemi di Rete*: Il rischio che il sistema del cliente si ritrovi isolato dal mondo esterno e quindi non e' in grado fisicamente di raggiungere l'applicativo.
 2. *Guasti Hardware*: Si vuole analizzare il caso in cui l'application server e il database server subisca dei guasti in modo da rendere inutilizzabile il sistema.
-3. *Necessita' Improvvisa di Acquisto*: Ci si rende conto che e' necessario per il corretto funzionamento del sistema un acquisto di hardware e software. 
+3. *Necessita' Improvvisa di Acquisto*: Ci si rende conto che e' necessario per il corretto funzionamento del sistema un acquisto di hardware e software.
 4. *Necessita' di personale*: Ci si rende conto che e' necessario assumere nuovo personale in corso d'opera.
 5. *Problemi sulle Stime*: Risultano errate per via della poca esperienza, per dell'incertezza del compito stesso o per fattori tecnici
 
-#### Effetti dei Malfunzionamenti ####
-I COS effettivamente influenzati da questi problemi sono: 
+### Effetti dei Malfunzionamenti ###
+I COS effettivamente influenzati da questi problemi sono:
 * *Performance*
 * *Completamento Pianificazione Entro le Tempistiche*.
 
@@ -164,7 +169,7 @@ Di seguito elenchiamo i possibili effetti che hanno sul sistema:
 4. La necessita' sopra indicata, se non prevista, puo' portare a problematiche di tempo, in quanto il neo assunto va formato e introdotto al dominio applicativo, e di risorse, in quanto delle risorse vanno impiegate per integrare il nuovo arrivato nel team e renderlo di fatto operativo.
 5. L'impatto principale si ha senza dubbio sui tempi in quanto stime errate possono facilmente portare fuori schedula tutto il progetto.
 
-#### Possibili Azioni per Mitigare le Problematiche ####
+### Possibili Azioni per Mitigare le Problematiche ###
 Prendendo in esame ogni singolo rischio verra' mostrata una lista delle possibili contromisure che si possono intraprendere:
 1. Creazione di un clone del sistema interno alla rete del cliente che viene mantenuto automaticamente in sincrono tramite un job notturno con l'ambiente di produzione in modo che, in causa di guasti sia possibile lavorare su quello. L'integrazione puo' basarsi su un log che semplicemente da prevalenza alle modifiche piu' recenti.
 2. Per risolvere questo problema e anche l'acquisto di nuovo hardware in maniera improvvisa si puo' decidere di utilizzare una soluzione cloud che offre scalabilita' e fault tollerance
@@ -181,6 +186,25 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
 
 Planning
 =======
+La gestione della parte di planning e' fortemente influenzata dalla scelta del ciclo di vita del progetto.(iterativa) Conseguentemente verra' preso in esame unicamente il primo requisito principale presente nella RBS risultante dalla fase di scope, come esempio, per tutti gli altri verranno solamente indicati i documenti risultanti dalla fase di scoping.
+Questo consente di snellire in ogni caso questo documento ed eventualmente, se si ritiene necessario giustificare certe scelte particolari fatte per il planning delle attivita' di altri requisiti, queste saranno discusse in una sottosezione a parte.
+
+###Deliverables###
+Per maggior chiarezza vengono elencati i deliverables che la fase di planning deve produrre:
+1. Project Definition Statement(PDS)
+2. Analisi dei Rischi
+3. Work Breakdown Statement(WBS)
+4. Stima delle Attivita'
+5. Risorse necessarie e assegnamento.
+6. Dipendenza tra le attivita' (Project Network Diagram)
+
+###Project Definition Statement###
+###Analisi Dei Rischi###
+###Work Breakdown Statement###
+###Stime Delle Attivita'###
+###Risorse Necessarie e Assegnamento###
+###Project Network Diagram###
+
 
 
 Policies e Varie (da sistemare)
