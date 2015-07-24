@@ -188,6 +188,7 @@ Planning
 =======
 La gestione della parte di planning e' fortemente influenzata dalla scelta del ciclo di vita del progetto.(iterativa) Conseguentemente verra' preso in esame unicamente il primo requisito principale presente nella RBS risultante dalla fase di scope, come esempio, per tutti gli altri verranno solamente indicati i documenti risultanti dalla fase di scoping.
 Questo consente di snellire in ogni caso questo documento ed eventualmente, se si ritiene necessario giustificare certe scelte particolari fatte per il planning delle attivita' di altri requisiti, queste saranno discusse in una sottosezione a parte.
+Inoltre e' possibile adottare questo tipo di pianificazione perche' ogni requisito presente nella RBS viene trattato separatamente dagli altri e in maniera isolata. Questo consente una pianificazione piu mirata sul requisito stesso e la possibilita' di rilasciare alla fine del ciclo un prodotto al committente, in modo che questo possa valutarlo e collaudarlo, prima di passare al ciclo successivo.
 
 ###Deliverables###
 Per maggior chiarezza vengono elencati i deliverables che la fase di planning deve produrre:
@@ -199,6 +200,10 @@ Per maggior chiarezza vengono elencati i deliverables che la fase di planning de
 6. Dipendenza tra le attivita' (Project Network Diagram)
 
 ###Project Definition Statement###
+All'interno del Project Definition Statement vengono raccolte in maniera dettagliata tutto quello che si e' deciso in fase di scoping, estendendo il POS. Cambia, oltre alla lunghezza del documento, anche il destinatario, che non sara' piu' il senior management ma pensi' il team aziendale. Questo fa si che si abbia un riferimento unico a tutto il team.
+
+Il Project Definition Statement non e' un documento che viene rielaborato ad ogni iterazione ocme invece avviene per gli altri documenti della fase di planning.
+
 ###Analisi Dei Rischi###
 ###Work Breakdown Statement###
 ###Stime Delle Attivita'###
