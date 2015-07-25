@@ -130,10 +130,11 @@ Analisi dei Rischi (Risk Analysis)
 --------------------------
 In questa sezione verranno presi in esame i rischi principali correlati con il progetto, di conseguenza saranno classificati per gravita e per la probabilita' che questi si verifichino. In questo modo si sara' in grado di stimare effettivamente quanto e' il rischio complessivo dell'intero progetto e quindi anche influenzare la prioritizzazione e realizzazione delle attivita' da svolgere relative ai requisiti al fine di ridurre al minimo la possibilita' di rischi, oppure influenzare effettivamente la scelta del senior management riguardo la partenza o meno dell'intero progetto.
 Essendo questo un esercizio didattico sul management si e' comunque deciso di individuare solo i rischi di malfunzionamento principali al fine di snellire la trattazione e concentrarsi adeguatamente anche sulle successive parti dell'elaborato. Inoltre e' utile questa prima analisi dei rischi per due motivi:
+
 *  Come template per l'analisi dei rischi che deve essere fatta in fase di planning per ogni iterazione.
 *  Perche' i rischi principali che si possono riscontrare possono essere utili per la stesura del POS e possono anche portare a nuovi requisiti o ad un'estensione di quelli gia' presenti.
 
- Tutto questo deve quindi essere considerato come un semplice esempio di una vera analisi dei rischi, che pero' segue in ogni caso la metodologia che viene illustrata, in quando realmente applicata anche in contesti reali.
+Tutto questo deve quindi essere considerato come un semplice esempio di una vera analisi dei rischi, che pero' segue in ogni caso la metodologia che viene illustrata, in quando realmente applicata anche in contesti reali.
 
 ### Failure Mode, Effects, and Criticality Analysis ###
 Per l'individuazione dei rischi si e' deciso di utilizzare un semplice approccio molto conosciuto per svolgere questa analisi che coincide semplicemente nel:
@@ -155,6 +156,7 @@ Project Overview Statement
 --------------------------
 Per la stesura del POS si e' proceduto per gradi: mano in mano che il processo di scoping progrediva e venivano svolte le riunioni che andavano a consolidare le condition of satisfaction e la struttura gerarchica dei requisiti(RBS) il POS veniva aggiornato in modo da rispecchiare il piu' fedelmente possibile il procedere dei lavori. Una volta che tutte le fasi precedenti sono terminate, la versione finale e' stata sottoposta al senior management per l'approvazione.
 Gli aspetti principali che si sono considerati per la creazione del documento sono stati:
+
 * Un'attenzione particolare alla misurazione dei criteri di successo e delle richieste del cliente evidenziando come fare per verificare la riuscita del progetto al fine di tutelarsi per eventuali problematiche future.
 * L'aggiunta di quelli che possono essere i vantaggi per l'azienda nell'intraprendere il progetto in esame.
 * L'intenzione di voler evidenziare fin da subito quali sono le varie parti che dovranno comporre il sistema in modo da rinforzare l'idea della compartimentazione e soprattutto la scelta del ciclo di vita che si e' introdotto nella sezione precedente.
@@ -165,8 +167,11 @@ La gestione della parte di planning e' fortemente influenzata dalla scelta del c
 Questo consente di snellire in ogni caso questo documento ed eventualmente, se si ritiene necessario giustificare certe scelte particolari fatte per il planning delle attivita' di altri requisiti, queste saranno discusse in una sottosezione a parte.
 Inoltre e' possibile adottare questo tipo di pianificazione perche' ogni requisito presente nella RBS viene trattato separatamente dagli altri e in maniera isolata. Questo consente una pianificazione piu mirata sul requisito stesso e la possibilita' di rilasciare alla fine del ciclo un prodotto al committente, in modo che questo possa valutarlo e collaudarlo, prima di passare al ciclo successivo.
 
+Come caso di studio verra' affrontato il planning del primo requisito, quindi la realizzazione della pianificazione delle lezioni. 
+
 ###Deliverables###
 Per maggior chiarezza vengono elencati i deliverables che la fase di planning deve produrre:
+
 1. Project Definition Statement(PDS)
 2. Analisi dei Rischi
 3. Work Breakdown Statement(WBS)
