@@ -51,6 +51,7 @@ I COS effettivamente influenzati da questi problemi sono:
 
 Inoltre risultano influenzati tutti i punti relativi allo *Scope Triangle* in particolare il fattore tempo.
 Di seguito elenchiamo i possibili effetti che hanno sul sistema:
+
 1. Il sistema e' inutilizzabile (soprattutto perche' e' concepito come interamente web) e quindi effettivamente si ha un blocco completo dei lavori. Questo ha un forte impatto sul requisito delle tempistiche.
 2. Anche in questo caso il sistema risente di un impatto sulle tempistiche rendendo l'applicativo di fatto inutilizzabile, inoltre se questo rischio si verifica si ha anche un conseguente impatto sui costi di riparazione/sostituzione.
 3. Questo problema ha anch'esso un effetto sui costi e sulle risorse dovendo portare ad un utilizzo di maggior hardware o all'acquisto di eventuali licenze per velocizzare li lavoro. Inoltre il tutto dovra' anche essere integrato con il sistema.
@@ -59,6 +60,7 @@ Di seguito elenchiamo i possibili effetti che hanno sul sistema:
 
 ### Possibili Azioni per Mitigare le Problematiche ###
 Prendendo in esame ogni singolo rischio verra' mostrata una lista delle possibili contromisure che si possono intraprendere:
+
 1. Creazione di un clone del sistema interno alla rete del cliente che viene mantenuto automaticamente in sincrono tramite un job notturno con l'ambiente di produzione in modo che, in causa di guasti sia possibile lavorare su quello. L'integrazione puo' basarsi su un log che semplicemente da prevalenza alle modifiche piu' recenti.
 2. Per risolvere questo problema e anche l'acquisto di nuovo hardware in maniera improvvisa si puo' decidere di utilizzare una soluzione cloud che offre scalabilita' e fault tollerance
 3. Per mitigare questa problematica si puo' pensare di intraprendere fin da subito contatti e partnership con eventuali agenzie di reclutamento per lavori a progetto in grado di coprire le eventuali necessita'. Oppure considerare la possibilita' di negoziare personale da altri progetti, meglio se particolarmente specializzato nel compito da svolgere (ad esempio un dipendente di un altro progetto che gia' ha preso parte alla creazione di sistemi di reportistica) per avere un aiuto e quindi sopperire al rischio.
