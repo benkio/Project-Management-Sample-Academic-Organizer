@@ -25,10 +25,12 @@ Risk Identification and Assissment
 ----------------
 
 |            Risk Summary           | Description                                                                                              | Preliminary Risk Rating | Risk Mitigation Description                                                                              | Residual Risk Rating |
-|:---------------------------------:|----------------------------------------------------------------------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|:---------------------------------:|----------------------------------------------------------------------------------------------------------|-------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
 | Compatibilita'/Integrazione       | Problemi di compatibilita' con moduli futuri                                                             | High                    | Soluzione sviluppata 'in house' o open source                                                            | Medium               |
 | Necessita' di Formazione          | Certi componenti del team non conoscono la tecnologia e necessitano formazione                           | Medium                  | Peer Programming, Easy tasks o Free Online Courses                                                       | Low                  |
 | Stackholders Feedback Missing     | Mancanza di comunicazione tra gli stackeholders e il team di sviluppo su quanto realizzato               | High                    | Invio di mackup preventivi, concordare visite del rappresentante per mostrare lo stato di avanzamento    | Medium               |
+| ...                               | ...                                                                                                      | ...                     | ...                                                                                                      | ...                  |
+
 
 Explanation of Risks
 ---------------------------------------
