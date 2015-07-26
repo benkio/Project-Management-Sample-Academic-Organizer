@@ -36,7 +36,7 @@ Explanation of Risks
 ---------------------------------------
 
 ### Identificazione Malfunzionamenti ###
-Vengono qui illustrati dei macro rischi (Effetti e cause) che sono strettamente correlati ai COS e che quindi possono fortente portare a una insoddisfazione degli stessi, qui di seguito i due principali rischi:
+Vengono qui illustrati dei macro rischi (Effetti e cause) che sono strettamente correlati ai COS e che quindi possono fortente portare a una insoddisfazione degli stessi, qui di seguito i principali rischi:
 
 1. *Problemi di Rete*: Il rischio che il sistema del cliente si ritrovi isolato dal mondo esterno e quindi non e' in grado fisicamente di raggiungere l'applicativo.
 2. *Guasti Hardware*: Si vuole analizzare il caso in cui l'application server e il database server subisca dei guasti in modo da rendere inutilizzabile il sistema.

@@ -129,7 +129,7 @@ Quando infine il cliente si dira' soddisfatto del prodotto si procedera' con la 
 Analisi dei Rischi (Risk Analysis)
 --------------------------
 In questa sezione verranno presi in esame i rischi principali correlati con il progetto, di conseguenza saranno classificati per gravita e per la probabilita' che questi si verifichino. In questo modo si sara' in grado di stimare effettivamente quanto e' il rischio complessivo dell'intero progetto e quindi anche influenzare la prioritizzazione e realizzazione delle attivita' da svolgere relative ai requisiti al fine di ridurre al minimo la possibilita' di rischi, oppure influenzare effettivamente la scelta del senior management riguardo la partenza o meno dell'intero progetto.
-Essendo questo un esercizio didattico sul management si e' comunque deciso di individuare solo i rischi di malfunzionamento principali al fine di snellire la trattazione e concentrarsi adeguatamente anche sulle successive parti dell'elaborato. Inoltre e' utile questa prima analisi dei rischi per due motivi:
+Essendo questo un esercizio didattico sul management si e' comunque deciso di individuare solo i rischi di malfunzionamento principali al fine di snellire la trattazione e concentrarsi adeguatamente anche sulle successive parti dell'elaborato. Le motivazioni e le contromisure sono state direttamente spiegate all'interno del documento per far si di snellire questo documento e perche' puo' essere effettivamente utile avere all'interno del template una spiegazione discorsiva dell'analisi. Inoltre e' utile questa prima analisi dei rischi per due motivi:
 
 *  Come template per l'analisi dei rischi che deve essere fatta in fase di planning per ogni iterazione.
 *  Perche' i rischi principali che si possono riscontrare possono essere utili per la stesura del POS e possono anche portare a nuovi requisiti o ad un'estensione di quelli gia' presenti.
@@ -185,6 +185,8 @@ All'interno del Project Definition Statement vengono raccolte in maniera dettagl
 Il Project Definition Statement non e' un documento che viene rielaborato ad ogni iterazione ocme invece avviene per gli altri documenti della fase di planning.
 
 ###Analisi Dei Rischi###
+Per l'analisi dei rischi e' stato preso il template gia' introdotto con il risk analiysis in fase di scoping ed e' stato effettuato in maniera peculiare per il requisito in esame. Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure.
+
 ###Work Breakdown Statement###
 ###Stime Delle Attivita'###
 ###Risorse Necessarie e Assegnamento###
