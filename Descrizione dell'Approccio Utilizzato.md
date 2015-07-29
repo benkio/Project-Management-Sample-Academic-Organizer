@@ -99,7 +99,7 @@ Viene illustrata una lista dei meeting necessari in maniera ridotta. In particol
  9. 7/8/15 - "Scelta del ciclo di sviluppo del progetto e Raffinamento del POS" - [PMLC Model + POS] - Report LCM#001
  10. 11/8/15 - "Versione finale del POS e presentazione dello stesso per il senior management" - [POS] - Report POS#001
  11. 20/08/15 - "JPPS - Planning Kickoff and PDS" - [PDS] - Report PDS#001 
- 12. 25/
+ 12. 25/08/15 - "Analisi Dei Rischi e WBS" - [Risk Analysis - WBS] - Report RAWBS#001
 
 Conditions of Satisfaction
 -------
@@ -185,9 +185,12 @@ All'interno del Project Definition Statement vengono raccolte in maniera dettagl
 Il Project Definition Statement non e' un documento che viene rielaborato ad ogni iterazione ocme invece avviene per gli altri documenti della fase di planning.
 
 ###Analisi Dei Rischi###
-Per l'analisi dei rischi e' stato preso il template gia' introdotto con il risk analiysis in fase di scoping ed e' stato effettuato in maniera peculiare per il requisito in esame. Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure.
+Per l'analisi dei rischi e' stato preso il template gia' introdotto con il risk analiysis in fase di scoping ed e' stato effettuato in maniera peculiare per il requisito in esame. Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure. La presenza di un'analisi dei rischi a questo livello consente di individuare problematiche specifiche del requisito in esame e di prepararsi quindi nel caso qualcuno di quelli individuati si verifichi.
 
 ###Work Breakdown Statement###
+La WBS verra' indicata separatamente, una per ogni requisito, in questo modo sara' possibile ridurre la complessita' della costruzione intera della WBS e concentrarsi direttamente sulle attivita' specifiche del singolo requisito in esame.
+Per quanto riguarda le dipendenze delle varie attivita' che si possono avere, queste vengono analizzate alla fine del processo che le individua e le formalizza all'interno della WBS. In particolare, per questo caso incui si creeranno diverse WBS, una per ogni ciclo di iterazione, gia' dalla seconda prodotta si potra' andare ad analizzare e vedere se una delle attivita' da svolgere ha delle somiglianze con una gia' effettuata, in modo da avere un confronto in stime, costi, risorse e problematiche che hanno caratterizzato la precedente attivita'.
+
 ###Stime Delle Attivita'###
 ###Risorse Necessarie e Assegnamento###
 ###Project Network Diagram###
