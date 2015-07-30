@@ -192,6 +192,15 @@ La WBS verra' indicata separatamente, una per ogni requisito, in questo modo sar
 Per quanto riguarda le dipendenze delle varie attivita' che si possono avere, queste vengono analizzate alla fine del processo che le individua e le formalizza all'interno della WBS. In particolare, per questo caso incui si creeranno diverse WBS, una per ogni ciclo di iterazione, gia' dalla seconda prodotta si potra' andare ad analizzare e vedere se una delle attivita' da svolgere ha delle somiglianze con una gia' effettuata, in modo da avere un confronto in stime, costi, risorse e problematiche che hanno caratterizzato la precedente attivita'.
  
 ###Stime Delle Attivita'###
+Per le stime delle attivita' si e' deciso di utilizzare un consensus based seguendo una serie di round, da un minimo di 2 fino ad un massimo di 10 in modo da raggiungere una stima piu veritiera. Coloro che parteciperanno alle stime sono:
+
+* L'Architetto
+* Gli sviluppatori del team
+* Esperti aziendali (che gia' hanno sviluppato situazioni simili)
+* Esperti aziendali della tecnologia utilizzata
+
+Chiaramente i partecipanti possono variare in base a che tipo di attivita' va stimata, ad esempio nel caso della creazione di un database saranno necessari dei DBA piuttosto che sviluppatori software. 
+
 ###Risorse Necessarie e Assegnamento###
 ###Project Network Diagram###
 Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre e quali fanno quindi parte del percorso critico e quindi vanno gestite con particolare attenzione.
