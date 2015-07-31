@@ -209,9 +209,9 @@ Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
 * Personale Coinvolto 
 * Altro
 
-Si cerca di evitare che il costo dell'attivita' avvenga attraverso la conversione giorni/uomo, ma nel caso questo non sia possibile sara' adottata questa metodologia.
+Si cerca di evitare che il costo dell'attivita' avvenga attraverso la conversione giorni/uomo, ma nel caso questo non sia possibile sara' adottata questa metodologia. Nel documento riguardante le stime infatti vengono inserito soltano un indicazione del tempo necessario, nulla in riferimento alle risorse, queste vengono formalizzate nella sezione sottostante, anche se in vierita' queste due attivita' avvengono allo stesso momento. 
 
-Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso.
+Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato.
 
 ###Risorse Necessarie e Assegnamento###
 ###Project Network Diagram###
