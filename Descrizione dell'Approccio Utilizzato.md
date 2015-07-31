@@ -215,7 +215,7 @@ Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito templ
 
 ###Risorse Necessarie e Assegnamento###
 ###Project Network Diagram###
-Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre e quali fanno quindi parte del percorso critico e quindi vanno gestite con particolare attenzione.
+Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre e quali fanno quindi parte del percorso critico, e che andranno gestite con particolare attenzione.
 
 
 
