@@ -191,15 +191,27 @@ Per l'analisi dei rischi e' stato preso il template gia' introdotto con il risk 
 La WBS verra' indicata separatamente, una per ogni requisito, in questo modo sara' possibile ridurre la complessita' della costruzione intera della WBS e concentrarsi direttamente sulle attivita' specifiche del singolo requisito in esame.
 Per quanto riguarda le dipendenze delle varie attivita' che si possono avere, queste vengono analizzate alla fine del processo che le individua e le formalizza all'interno della WBS. In particolare, per questo caso incui si creeranno diverse WBS, una per ogni ciclo di iterazione, gia' dalla seconda prodotta si potra' andare ad analizzare e vedere se una delle attivita' da svolgere ha delle somiglianze con una gia' effettuata, in modo da avere un confronto in stime, costi, risorse e problematiche che hanno caratterizzato la precedente attivita'.
  
-###Stime Delle Attivita'###
-Per le stime delle attivita' si e' deciso di utilizzare un consensus based seguendo una serie di round, da un minimo di 2 fino ad un massimo di 10 in modo da raggiungere una stima piu veritiera. Coloro che parteciperanno alle stime sono:
+###Stime Delle Attivita' e Dei Costi###
+Per le stime delle attivita' si e' deciso di utilizzare un consensus based seguendo una serie di round, da un minimo di 2 fino ad un massimo di 10 in modo da raggiungere una stima piu veritiera, il numero di round dipendera' prevalentemente dal come i valori del round precedente sono distanti tra di loro.
+
+Coloro che parteciperanno alle stime sono:
 
 * L'Architetto
 * Gli sviluppatori del team
 * Esperti aziendali (che gia' hanno sviluppato situazioni simili)
 * Esperti aziendali della tecnologia utilizzata
 
-Chiaramente i partecipanti possono variare in base a che tipo di attivita' va stimata, ad esempio nel caso della creazione di un database saranno necessari dei DBA piuttosto che sviluppatori software. 
+Chiaramente i partecipanti possono variare in base a che tipo di attivita' va stimata, ad esempio nel caso della creazione di un database saranno necessari dei DBA piuttosto che sviluppatori software.
+
+Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
+* Esperienze Precedenti
+* Risorse Particolari (licenze, consulenti..)
+* Personale Coinvolto 
+* Altro
+
+Si cerca di evitare che il costo dell'attivita' avvenga attraverso la conversione giorni/uomo, ma nel caso questo non sia possibile sara' adottata questa metodologia.
+
+Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso.
 
 ###Risorse Necessarie e Assegnamento###
 ###Project Network Diagram###
