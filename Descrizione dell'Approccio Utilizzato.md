@@ -5,7 +5,7 @@
 	- [Glossario](#)
 - [Scoping](#)
 	- [Meetings](#)
-		- [Stesura del Report[Meeting Agenda]](#)
+		- [Stesura del Report[Meeting Agenda](#)
 		- [Partecipanti](#)
 		- [Lista dei Meetings](#)
 	- [Conditions of Satisfaction](#)
@@ -209,7 +209,7 @@ Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
 * Personale Coinvolto 
 * Altro
 
-Si cerca di evitare che il costo dell'attivita' avvenga attraverso la conversione giorni/uomo, ma nel caso questo non sia possibile sara' adottata questa metodologia. Nel documento riguardante le stime infatti vengono inserito soltano un indicazione del tempo necessario, nulla in riferimento alle risorse, queste vengono formalizzate nella sezione sottostante, anche se in vierita' queste due attivita' avvengono allo stesso momento. 
+Per quantizzare le stime del lavoro si e' deciso di utilizzare la classica misurazione giorni/uomo. In particolare nel documento della stima verra' mostrato il tempo necessario stimato con le risorse associate. Questo e' spesso ricavato da esperienze precedenti e similari; in questo caso si adatteranno le tempistiche effettivamente riscontrate nel caso storico effettuando una proporzione con le risorse che si hanno al momento per ricavare il dato del tempo. Il project manager poi puo' aggiungere o rimuovere del tempo in base al fatto che, nella realizzazione del compito, sia presente una risorsa junior piuttosto che senior o nel caso ci siano altri fattori che possano influenzare li tempo.
 
 Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato.
 
