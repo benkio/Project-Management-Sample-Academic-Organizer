@@ -100,7 +100,10 @@ Viene illustrata una lista dei meeting necessari in maniera ridotta. In particol
  10. 11/8/15 - "Versione finale del POS e presentazione dello stesso per il senior management" - [POS] - Report POS#001
  11. 20/08/15 - "JPPS - Planning Kickoff and PDS" - [PDS] - Report PDS#001 
  12. 25/08/15 - "Analisi Dei Rischi e WBS" - [Risk Analysis - WBS] - Report RAWBS#001
-
+ 13. 28/08/15 - "Completamento WBS e Stime" - [WBS - Stime] - Report WBSES#001
+ 14. 01/09/15 - "Completamento Stime e Gantt" - [Stime - Gantt] - Report ESGANTT#001
+ 15. 03/09/15 - "Completamento Gantt e Assegnamento Risorse - [Gantt - Assegnamento Risorse] - Report GANTT#001
+ 
 Conditions of Satisfaction
 -------
 Per la raccolta delle condition of satisfaction e' stato difficile trovare un vero e proprio template perche' spesso tutto viene direttamente riversato nella stesura stessa del POS e quindi non si ha un vero e proprio documento a riguardo.
@@ -143,9 +146,9 @@ Per l'individuazione dei rischi si e' deciso di utilizzare un semplice approccio
 2.  Per ogni modo di malfunzionamento/difetto dei componenti descrizione degli effetti e delle possibili cause.
 3.  Per ogni modo di malfunzionamento/difetto ricerca delle azioni possibili per ridurne gli effetti.
 4.  Definizione delle scale di punteggio dei tre parametri:
-  *  Probabilità di accadimento del malfunzionamento/difetto base
-  *  Severità degli effetti del malfunzionamento/difetto base
-  *  Rilevabilità del malfunzionamento/difetto base.
+  *  Probabilita' di accadimento del malfunzionamento/difetto base
+  *  Severita' degli effetti del malfunzionamento/difetto base
+  *  Rilevabilita' del malfunzionamento/difetto base.
 5.  Attribuzione dei punteggi ai parametri.
 6.  Valutare e decidere gli interventi da intraprendere.
 
@@ -224,6 +227,8 @@ Per fare cio' si e' adottato il classico schema Gantt che si puo' trovare nei do
 
 Con questo tool si e' agevolati nella costruzione dello schema, nella costruzione del PERT risultante e delle risorse che sono associate alle singole attivita'.
 Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, questo rende possibile rivedere quanto scritto in base ad accorgimenti sulle risorse come sovraccarichi di lavoro o sottocarichi di lavoro. Quando il Gantt risulta corretto e le stime saranno sincronizzate con questo sara' possibile procedere con la fase di realizzazione della pianificazione.
+
+Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 1 giorno di durata.
 
 Policies e Varie (da sistemare)
 =======
