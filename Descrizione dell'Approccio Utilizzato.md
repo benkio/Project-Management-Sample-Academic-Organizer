@@ -214,10 +214,13 @@ Per quantizzare le stime del lavoro si e' deciso di utilizzare la classica misur
 Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato.
 
 ###Risorse Necessarie e Assegnamento###
+
+Le risorse necessarie per ciascuna attivita' e il loro assegnamento e' stato riportato nel documento relativo alle stime. In particolare per questa fase si noti come molti compiti vengano fatti fare da sviluppatori senior piuttosto che junior perche', essendo la parte iniziale del progetto e' necessario che tutto venga impostato correttamente e che quindi si sfrutti personale con maggiore esperienza. In ogni caso se una attivita' non viene considerata come critica e possiede abbastanza margine da essere completata in sicurezza, senza quindi avere degli impatti sul tempo finale di realizzazione e rilascio della milestone che viene consegnata a fine di ogni ciclo incrementale, allora puo' esser svolta in coppia tra uno sviluppatore senior e uno junior in modo da aumentare l'esperienza di quest'ultimo, la formazione e gli stimoli che ne derivano.
+
 ###Project Network Diagram###
-Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre e quali fanno quindi parte del percorso critico, e che andranno gestite con particolare attenzione.
+Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre, quali fanno quindi parte del percorso critico,le quali andranno gestite con particolare attenzione.
 
-
+Per fare cio' si e' adottato il classico schema Gantt che si puo' trovare nei documenti di progetto.
 
 Policies e Varie (da sistemare)
 =======
