@@ -220,7 +220,10 @@ Le risorse necessarie per ciascuna attivita' e il loro assegnamento e' stato rip
 ###Project Network Diagram###
 Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre, quali fanno quindi parte del percorso critico,le quali andranno gestite con particolare attenzione.
 
-Per fare cio' si e' adottato il classico schema Gantt che si puo' trovare nei documenti di progetto.
+Per fare cio' si e' adottato il classico schema Gantt che si puo' trovare nei documenti di progetto. Per facilitare il lavoro si e' deciso di utilizzare il tool opensource: [Gantt Project](http://www.ganttproject.biz/)
+
+Con questo tool si e' agevolati nella costruzione dello schema, nella costruzione del PERT risultante e delle risorse che sono associate alle singole attivita'.
+Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, questo rende possibile rivedere quanto scritto in base ad accorgimenti sulle risorse come sovraccarichi di lavoro o sottocarichi di lavoro. Quando il Gantt risulta corretto e le stime saranno sincronizzate con questo sara' possibile procedere con la fase di realizzazione della pianificazione.
 
 Policies e Varie (da sistemare)
 =======
