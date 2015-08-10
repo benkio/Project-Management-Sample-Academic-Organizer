@@ -39,20 +39,25 @@
         <task id="2" name="Business Intelligence" color="#000000" meeting="false" start="2015-10-26" duration="12" complete="0" expand="true">
             <task id="3" name="Schema" color="#8cb6ce" meeting="false" start="2015-10-26" duration="2" complete="0" expand="true">
                 <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="73" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="4" name="Implementation" color="#8cb6ce" meeting="false" start="2015-10-28" duration="4" complete="0" expand="true">
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="73" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="5" name="ETL" color="#8cb6ce" meeting="false" start="2015-11-03" duration="6" complete="0" expand="true"/>
+            <task id="5" name="ETL" color="#8cb6ce" meeting="false" start="2015-11-03" duration="6" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
-        <task id="22" name="Interface" meeting="false" start="2015-10-19" duration="32" complete="0" expand="true">
-            <task id="25" name="Statical View" meeting="false" start="2015-10-19" duration="5" complete="0" expand="true">
-                <task id="24" name="By Date" color="#8cb6ce" meeting="false" start="2015-10-19" duration="5" complete="0" expand="true"/>
-                <task id="26" name="By Course" color="#8cb6ce" meeting="false" start="2015-10-19" duration="5" complete="0" expand="true"/>
-                <task id="32" name="By TIme" color="#8cb6ce" meeting="false" start="2015-10-19" duration="5" complete="0" expand="true"/>
+        <task id="22" name="Interface" meeting="false" start="2015-10-26" duration="27" complete="0" expand="true">
+            <task id="25" name="Statical View" meeting="false" start="2015-10-26" duration="5" complete="0" expand="true">
+                <task id="24" name="By Date" color="#8cb6ce" meeting="false" start="2015-10-26" duration="5" complete="0" expand="true"/>
+                <task id="26" name="By Course" color="#8cb6ce" meeting="false" start="2015-10-26" duration="5" complete="0" expand="true"/>
+                <task id="32" name="By TIme" color="#8cb6ce" meeting="false" start="2015-10-26" duration="5" complete="0" expand="true"/>
             </task>
             <task id="49" name="Dinamic Report" meeting="false" start="2015-11-11" duration="15" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
                 <task id="42" name="BI Operators" color="#8cb6ce" meeting="false" start="2015-11-11" duration="15" complete="0" expand="true"/>
                 <task id="50" name="Views" color="#8cb6ce" meeting="false" start="2015-11-11" duration="10" complete="0" expand="true"/>
             </task>
@@ -61,12 +66,19 @@
                 <depend id="50" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="74" name="Testing" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true">
-            <task id="73" name="DB Testing" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true"/>
-            <task id="75" name="ETL Testing" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true"/>
-            <task id="76" name="Milestone Testing" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true"/>
+        <task id="74" name="Testing" color="#000000" meeting="false" start="2015-11-03" duration="26" complete="0" expand="true">
+            <task id="73" name="DB Testing" color="#8cb6ce" meeting="false" start="2015-11-03" duration="3" complete="0" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" name="ETL Testing" color="#8cb6ce" meeting="false" start="2015-11-11" duration="5" complete="0" expand="true"/>
+            <task id="76" name="Milestone Testing" color="#8cb6ce" meeting="false" start="2015-12-02" duration="5" complete="0" expand="true">
+                <depend id="79" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
-        <task id="77" name="DB Packaging" meeting="false" start="2015-10-19" duration="1" complete="0" expand="true"/>
+        <task id="78" name="Packaging" color="#000000" meeting="false" start="2015-11-06" duration="26" complete="0" expand="true">
+            <task id="77" name="DB Packaging" color="#8cb6ce" meeting="false" start="2015-11-06" duration="3" complete="0" expand="true"/>
+            <task id="79" name="Milestone Packaging" color="#8cb6ce" meeting="false" start="2015-12-09" duration="3" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources>
         <resource id="0" name="Enrico Benini" function="Default:1" contacts="e.ben@fuff.com" phone="001"/>
@@ -90,6 +102,9 @@
         <allocation task-id="26" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="33.0"/>
         <allocation task-id="32" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="33.0"/>
         <allocation task-id="50" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="2" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="2" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
         <allocation task-id="3" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
         <allocation task-id="42" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
@@ -107,6 +122,8 @@
         <allocation task-id="3" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="7" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="8" function="SoftwareDevelopment:7" responsible="true" load="100.0"/>
+        <allocation task-id="79" resource-id="8" function="SoftwareDevelopment:7" responsible="true" load="100.0"/>
         <allocation task-id="24" resource-id="9" function="2" responsible="false" load="33.0"/>
         <allocation task-id="32" resource-id="9" function="2" responsible="false" load="33.0"/>
         <allocation task-id="26" resource-id="9" function="2" responsible="false" load="33.0"/>
