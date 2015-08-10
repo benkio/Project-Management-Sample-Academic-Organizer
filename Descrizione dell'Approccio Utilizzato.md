@@ -230,6 +230,9 @@ Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, ques
 
 Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 1 giorno di durata.
 
+###Scope Bank###
+Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt
+
 Policies e Varie (da sistemare)
 =======
 
