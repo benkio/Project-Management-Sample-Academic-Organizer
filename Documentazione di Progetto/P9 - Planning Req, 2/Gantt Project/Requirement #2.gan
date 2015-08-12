@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Academic Organizer - Requirements #1" company="Fuff oganization" webLink="http://" view-date="2015-10-18" view-index="0" gantt-divider-location="419" resource-divider-location="393" version="2.7.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Academic Organizer - Requirements #1" company="Fuff oganization" webLink="http://" view-date="2015-10-25" view-index="0" gantt-divider-location="419" resource-divider-location="393" version="2.7.1" locale="en_US">
     <description><![CDATA[Gantt - PERT - Resource Management of the first requirement for the project of Academic Organizer.]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="56" order="0"/>
@@ -76,9 +76,14 @@
             </task>
         </task>
         <task id="78" name="Packaging" color="#000000" meeting="false" start="2015-11-06" duration="26" complete="0" expand="true">
-            <task id="77" name="DB Packaging" color="#8cb6ce" meeting="false" start="2015-11-06" duration="3" complete="0" expand="true"/>
-            <task id="79" name="Milestone Packaging" color="#8cb6ce" meeting="false" start="2015-12-09" duration="3" complete="0" expand="true"/>
+            <task id="77" name="DB Packaging" color="#8cb6ce" meeting="false" start="2015-11-06" duration="3" complete="0" expand="true">
+                <depend id="80" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="79" name="Milestone Packaging" color="#8cb6ce" meeting="false" start="2015-12-09" duration="3" complete="0" expand="true">
+                <depend id="80" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
+        <task id="80" name="Manual &amp; Documentation" color="#8cb6ce" meeting="false" start="2015-12-14" duration="5" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Enrico Benini" function="Default:1" contacts="e.ben@fuff.com" phone="001"/>
@@ -98,6 +103,7 @@
         <allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="24" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="33.0"/>
         <allocation task-id="26" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="33.0"/>
         <allocation task-id="32" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="33.0"/>
@@ -108,20 +114,24 @@
         <allocation task-id="3" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
         <allocation task-id="42" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
+        <allocation task-id="80" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="24" resource-id="4" function="Default:1" responsible="true" load="33.0"/>
         <allocation task-id="32" resource-id="4" function="Default:1" responsible="true" load="33.0"/>
         <allocation task-id="26" resource-id="4" function="Default:1" responsible="true" load="33.0"/>
         <allocation task-id="50" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="5" function="2" responsible="false" load="100.0"/>
         <allocation task-id="24" resource-id="5" function="2" responsible="false" load="33.0"/>
         <allocation task-id="32" resource-id="5" function="2" responsible="false" load="33.0"/>
         <allocation task-id="26" resource-id="5" function="2" responsible="false" load="33.0"/>
         <allocation task-id="5" resource-id="5" function="2" responsible="false" load="100.0"/>
         <allocation task-id="42" resource-id="6" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="6" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="7" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="7" function="1" responsible="false" load="100.0"/>
         <allocation task-id="77" resource-id="8" function="SoftwareDevelopment:7" responsible="true" load="100.0"/>
         <allocation task-id="79" resource-id="8" function="SoftwareDevelopment:7" responsible="true" load="100.0"/>
         <allocation task-id="24" resource-id="9" function="2" responsible="false" load="33.0"/>

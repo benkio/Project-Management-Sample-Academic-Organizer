@@ -248,30 +248,56 @@ Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 
 ###Scope Bank###
 Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt
 
-Policies e Varie (da sistemare)
-=======
+Executing
+==============
 
-Descrizione Del Team
+Nella fase di executing si procede effettivamente con la fase di realizzazione del progetto e quindi si mettono in atto tutto cio' che e' stato deciso in fase di planning. Di novita' rispetto alle fasi precedenti vanno aggiunti alcuni template che introdurro' brevemente in seguito per gestire aspetti importanti che possono accadere in questa fase, come la gestione della responsabilita' riguardante le varie attivita' oppure il processo di decision making e problem solving che e' necessario standardizzare attraverso appunto appositi documenti.
+
+Responsability Matrix
+------------
+Per l'assegnazione delle responsabilita' si e' deciso di utilizzare il classico template a matrice. Questo template e' stato inserito in questa fase perche' comunque si tratta di un documento interno e facile da gestire/costruire, ma a mio avviso la questione della responsabilita' delle varie attivita' puo' essere anche anticipato alla costruzione del gantt nella fase di planning, infatti lo strumento che si e' utilizzato in questo progetto per la costruzione del gantt gia' prevedeva la possibilita' di istituire uno o piu responsabili dell'attivita' quando a questa vengono assegnate le risorse.
+
+In piu' pero' nel template della matrice devono essere anche segnate:
++ Le persone coinvolte 
+* Quelle che devono essere informate
+* Quelle che devono assitere il responsabile
+* Quelle che devono approvare l'attivita' e il responsabile
+
+Problem Solving
+---------
+Per affrontare i problemi e la loro risoluzione si e' utilizzato anche in questo caso un template standard che indica:
+* Descrizione del problema
+* Gestione delle cause del problema
+* Raccolta di idee(brainstorming)
+* Prioritizzazione delle idee
+* Piano di azione
+
+Questi sono i punti che abbiamo anche introdotto a lezione e che servono come guida per affrontare i problemi che possono capitare in fase di esecuzione. Chiaramente un ottimo documento che gia' abbiamo introdotto e affrontato e' l'analisi dei rischi che in maniera dettagliata dovrebbe gia' aver previsto quelli piu gravi e quindi, quelli che non sono presenti e gestiti in quella sede, dovrebbero essere problemi marginali e di piu' facile risoluzione.
+
+risulta fondamentale mantenere sempre un *log dei problemi* che si sono affrontati all'interno del progetto stesso.
+
+Decision Making
 ----------
-Per la realizzazione di questa simulazione di project management si e' pensato a un team di una piccola azienda e quindi composto prettamente da 5 risorse:
+Per quanto riguarda il decision making si e' deciso che, vista la coesione del gruppo, si puo' procedere con un'approccio di tipo *partecipativo*, ma nel caso non si riesca a convergere in tempo utile allora il responsabile dell'attivita' sulla quale e' stato sollevato il problema avra' la possibilita' di scegliere direttamente il da farsi.
+Se invece la decisione riguarda tutto il progetto si e' deciso che il project manager avra' questa responsabilita'.
 
- - Due Senior Developer
- - Un DBA
- - Un Junior developer
- - Un Sistemista
+------
+**Sia durante il decision making che il problem solving, per individuare le possibili soluzioni si fara' ricorso alla tecnica del brainstorming e quindi sara' necessaria uno o piu' meetings tra i membri del team**
+------
 
-In particolare, lo sviluppatore con piu esperienza all'interno del team sara' quello che effettivamente si trovera' a capo del progetto e che quindi avra' la responsabilita' di prendere le decisioni riguardanti soprattutto l'architettura del progetto. Per quanto riguarda la gestione della parte amministrativa, questa viene affidata al DBA essendo anche l'ipotetico responsabile della gestione della qualita' e che quindi puo' tenere meglio sotto controllo che tutti i processi aziendali vengano correttamente rispettati.
-Infine, per quanto riguarda il testing e la documentazione viene designato come responsabile il secondo senior Developer, si faccia riferimento alla parte relativa. sempre interna a questa sezione.
-
-Testing e Documentazione
--------
-Essendo un prodotto software enterprise, e' necessaria la presenza di un manuale che viene costantemente mantenuto aggiornato ogni volta che vengono effettuate delle modifiche all'interfaccia, sia lato utente che lato software e nel caso siano presenti delle API relative a web service che fanno riferimento al prodotto stesso. Inoltre ci si avvale anche della generazione automatica di documentazione tecnica grazie all'utilizzo di tool di generazione automatica ad ogni milestone.
-In fase di analisi si e' anche pensato ad una forma *snella* di documentazione in modo che, nel caso fossero necessarie nuove risorse da inserire nel progetto, queste possano avere subito una rapida visione di quello che riguarda il progetto, in termini di: scopo, funzionalita' principali, metodologie di riferimento per il testing e monitoring, contesto incui il programma dovra' operare etc. Tutto questo non dovra' superare le 15 pagine. Anche la lettura di questo documento diventa fondamentale.
-Per quanto riguarda il testing invece si e' deciso di adottare, dove possibile, la presenza di test unitari che verranno implementati prima dello sviluppo del componente stesso e da uno sviluppatore diverso da quello che effettivamente sviluppera' il componente. Infine, durante la parte di collaudo verranno inoltre ideati anche dei test con dati fittizi che serviranno per controllare l'integrazione delle varie parti del prodotto nonche' le sue performance e controllo qualita' nei termini prestabiliti con il cliente.
-
- Comunicazioni (Meetings)
+Team Meetings
 -------
 Le comunicazioni interne e i meetings che avvengono tra i membri del team sono principalmente 2:
 
  - **Meeting Informale Mattiniero**(Stand-Up): anche se il progetto non sara' gestito in maniera agile si e' considerato comunque utile utilizzare la riunione informale mattiniera tipica di questa metodologia per informare gli altri membri del team dei progressi sulle attivita' assegnate, dei problemi e quindi aiutare i project manager a riassegnare eventualmente le risorse in base ad eventuali imprevisti. Effuttuando anche poi le dovute modifiche alla documentazione di progetto per mantenerne il controllo. Queste riunioni *devono essere brevi* affinche' non costituiscano un impedimento alla produttivita' di tutto il team. Servano soprattutto in casi gravi come primo campanello di allarme per il team, che acconsenta al capo progetto di decidere se la problematica e' da affrontare in una sede a parte. Con una riunione formale come quella seguente.
  - **Meeting Formale**(Riunione Classica): utilizzata nel caso di problemi che necessitano un approfondimento, per informare il team su quello che viene richiesto nel progetto o per altri scopi riguardanti l'analisi ad esempio. Sono riunioni strutturate e pianificate dove chi comanda la riunione deve illustrare per prima cosa quali sono gli argomenti che verranno trattati e quanto tempo impieghera' la riunione nella sua totalita'. Ogniuna di queste riunioni deve avere un'impatto sulla documentazione del progetto o produrre un report da poter consultare in futuro per avere subito chiaro quali sono gli argomenti trattati e i risultati della riunione. Tipicamente si e' deciso che si effettuera' una di queste riunioni a settimana, il Venerdi' pomeriggio, dove vengono illustrati lo stato del progetto e gli sviluppi/evoluzioni futuri.
+
+Altre Policies
+---------
+
+Testing e Documentazione
+-------
+Essendo un prodotto software enterprise, e' necessaria la presenza di un manuale che viene costantemente mantenuto aggiornato ogni volta che vengono effettuate delle modifiche all'interfaccia, sia lato utente che lato software e nel caso siano presenti delle API relative a web service che fanno riferimento al prodotto stesso. Inoltre ci si avvale anche della generazione automatica di documentazione tecnica grazie all'utilizzo di tool di generazione automatica ad ogni milestone.
+In fase di analisi si e' anche pensato ad una forma *snella* di documentazione in modo che, nel caso fossero necessarie nuove risorse da inserire nel progetto, queste possano avere subito una rapida visione di quello che riguarda il progetto, in termini di: scopo, funzionalita' principali, metodologie di riferimento per il testing e monitoring, contesto incui il programma dovra' operare etc. Tutto questo non dovra' superare le 15 pagine. Anche la lettura di questo documento diventa fondamentale. Come ulteriore supporto si puo' comunque fare riferimento anche ai documenti gia' presenti, come il POS e il PDS.
+Per quanto riguarda il testing invece si e' deciso di adottare, dove possibile, la presenza di test unitari che verranno implementati prima dello sviluppo del componente stesso e da uno sviluppatore diverso da quello che effettivamente sviluppera' il componente. Infine, durante la parte di collaudo verranno inoltre ideati anche dei test con dati fittizi che serviranno per controllare l'integrazione delle varie parti del prodotto nonche' le sue performance e controllo qualita' nei termini prestabiliti con il cliente. E' previsto comunque anche una risorsa che dovra' effettivamente validare il prodotto, questa poi puo' essere anche del committente. 
+
