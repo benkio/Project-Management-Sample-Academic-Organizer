@@ -40,7 +40,14 @@ Glossario
 - **Altre Risorse**: Risorse coinvolte nella lezione (Proiettori, strumenti per dimostrazioni varie)
 - **Studente**: Colui che segue le varie lezioni con lo scopo di apprendere la materia e superare l'esame.
 - **Esame**: Verifica dell'apprendimento dello studente
-- **Corso**: Insieme di lezioni che trattano lo stesso argomento e culminano nello stesso esame
+- **Corso**: Insieme di lezioni che trattano lo stesso argomento e culminano
+nello stesso esame
+
+Project Team
+-------
+Questa parte sara' ricorrente durante tutto il progetto perche', in base alle fasi che si attraverseranno nella realizzazione del progetto sara' necessario andare a formalizzare i ruoli delle varie persone all'interno del progetto stesso. In particolare noi abbiamo individuato vari momenti che precedono le fasi piu' importanti del progetto nelle quali risulta importante andare a definire alcune figure chiave del team del progetto stesso.
+
+Di conseguenza, inizialmente, prima del progetto di scoping e' necessario andare a definire **chi e' il project manager sia lato committente che lato fornitore** che si occupera' della gestione del progetto e quindi che ne assumera' le principali responsabilita'. Insieme a questi chiaramente anche i loro collaboratori, infatti si puo' gestire un progetto a livello strategico anche in piu' persone, magari con esperienza nel settore, che possono dare un valido contributo e un diverso punto di vista.
 
 Scoping
 =======
@@ -76,6 +83,7 @@ Di seguito viene indicata una lista delle figure professionali che devono essere
  - Eventuali dirigenti [Senior Management]
 
 In base allo scope della riunione i partecipanti possono cambiare, ad esempio se si deve parlare di questioni tecniche riguardanti il deploying e' consigliata la presenza di un tecnico sistemista.
+
 ###Lista dei Meetings###
 Viene illustrata una lista dei meeting necessari in maniera ridotta. In particolare verranno indicate:
 
@@ -103,6 +111,7 @@ Viene illustrata una lista dei meeting necessari in maniera ridotta. In particol
  13. 28/08/15 - "Completamento WBS e Stime" - [WBS - Stime] - Report WBSES#001
  14. 01/09/15 - "Completamento Stime e Gantt" - [Stime - Gantt] - Report ESGANTT#001
  15. 03/09/15 - "Completamento Gantt e Assegnamento Risorse - [Gantt - Assegnamento Risorse] - Report GANTT#001
+ 16. 07/09/15 - "Kickoff Meeting Execution" - [Operative Rules] - Report RULE#001
  
 Conditions of Satisfaction
 -------
@@ -163,6 +172,12 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
 * Un'attenzione particolare alla misurazione dei criteri di successo e delle richieste del cliente evidenziando come fare per verificare la riuscita del progetto al fine di tutelarsi per eventuali problematiche future.
 * L'aggiunta di quelli che possono essere i vantaggi per l'azienda nell'intraprendere il progetto in esame.
 * L'intenzione di voler evidenziare fin da subito quali sono le varie parti che dovranno comporre il sistema in modo da rinforzare l'idea della compartimentazione e soprattutto la scelta del ciclo di vita che si e' introdotto nella sezione precedente.
+
+Scelta del Core Team
+----------
+Una volta conclusa la fase di scoping (raggiunti e consolidati tutti i suoi deliverables) e' necessario andare a individuare quello che e' il core team del progetto. Questo e' importante per sapere chi e' effettivamente all'interno delle risolrse che si possono utilizzare le progetto stesso e che quindi partecipano attivamente alla fase di planning. Chiaramente queste possono essere anche diverse da quelle che hanno partecipato allo scoping, anche se di solito viene condivisa la parte che riguarda chi gestisce il progetto e chi ha piu' esperienza sul campo.
+
+In particolare, io preferisco cercare di scegliere tutto il team, anche quello che effettivamente andra' ad effettuare il progetto in questo momento del progetto stesso perche' mi da piu' sicurezza su quali e quante sono le risorse disponibili. Chiaramente quando e' possibile, altrimenti si possono utilizzare degli alias che non corrispondono fisicamente a nessuno di specifico, ma che mi danno la certezza che poi avro' una risorsa di quel tipo e che quindi sono in grado di pianificarla come dovuto.
 
 Planning
 =======
