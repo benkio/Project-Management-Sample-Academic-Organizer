@@ -1,12 +1,12 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Descrizione Dell'Approccio Utilizzato](#)
+- [Descrizione Dell'Approccio Utilizzato](#descrizione-dell'approccio-Utilizzato)
 	- [Introduzione](#)
 	- [Glossario](#)
 	- [Project Team](#)
 - [Scoping](#)
 	- [Meetings](#)
-		- [Stesura del Report[Meeting Agenda]](#)
+		- [Stesura del Report[Meeting Agenda](#)
 		- [Partecipanti](#)
 		- [Lista dei Meetings](#)
 	- [Conditions of Satisfaction](#)
