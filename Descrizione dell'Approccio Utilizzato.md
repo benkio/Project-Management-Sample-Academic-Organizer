@@ -3,9 +3,10 @@
 - [Descrizione Dell'Approccio Utilizzato](#)
 	- [Introduzione](#)
 	- [Glossario](#)
+	- [Project Team](#)
 - [Scoping](#)
 	- [Meetings](#)
-		- [Stesura del Report[Meeting Agenda](#)
+		- [Stesura del Report[Meeting Agenda]](#)
 		- [Partecipanti](#)
 		- [Lista dei Meetings](#)
 	- [Conditions of Satisfaction](#)
@@ -14,15 +15,35 @@
 	- [Scelta del PMLC Model](#)
 	- [Analisi dei Rischi (Risk Analysis)](#)
 		- [Failure Mode, Effects, and Criticality Analysis](#)
-			- [Identificazione Malfunzionamenti](#)
-			- [Effetti dei Malfunzionamenti](#)
-			- [Possibili Azioni per Mitigare le Problematiche](#)
 	- [Project Overview Statement](#)
+	- [Scelta del Core Team](#)
 - [Planning](#)
-- [Policies e Varie (da sistemare)](#)
-	- [Descrizione Del Team](#)
+		- [Deliverables](#)
+		- [Project Definition Statement](#)
+		- [Analisi Dei Rischi](#)
+		- [Work Breakdown Statement](#)
+		- [Stime Delle Attivita' e Dei Costi](#)
+		- [Risorse Necessarie e Assegnamento](#)
+		- [Project Network Diagram](#)
+		- [Scope Bank](#)
+- [Executing](#)
+	- [Responsability Matrix](#)
+	- [Problem Solving](#)
+	- [Decision Making](#)
+	- [Team Meetings](#)
+	- [Change Request](#)
+	- [Project Impact Statement](#)
+	- [Altre Policies](#)
 	- [Testing e Documentazione](#)
-	- [ Comunicazioni (Meetings)](#)
+- [Monitoring & Control](#)
+	- [Scope Bank](#)
+	- [Issue Log](#)
+- [Closing Project](#)
+	- [Strategia di Implementazione e Collaudo](#)
+	- [Documentazione](#)
+	- [Accettazione da parte del Cliente](#)
+	- [Installazione dei Deliverables](#)
+	- [Lessons Learned](#)
 
 Descrizione Dell'Approccio Utilizzato
 =======
@@ -314,8 +335,8 @@ Il tutto deve essere siglato con una firma del committente stesso in quanto un c
 Altre Policies
 ---------
 
-Testing e Documentazione
--------
+###Testing e Documentazione###
+
 Essendo un prodotto software enterprise, e' necessaria la presenza di un manuale che viene costantemente mantenuto aggiornato ogni volta che vengono effettuate delle modifiche all'interfaccia, sia lato utente che lato software e nel caso siano presenti delle API relative a web service che fanno riferimento al prodotto stesso. Inoltre ci si avvale anche della generazione automatica di documentazione tecnica grazie all'utilizzo di tool di generazione automatica ad ogni milestone.
 In fase di analisi si e' anche pensato ad una forma *snella* di documentazione in modo che, nel caso fossero necessarie nuove risorse da inserire nel progetto, queste possano avere subito una rapida visione di quello che riguarda il progetto, in termini di: scopo, funzionalita' principali, metodologie di riferimento per il testing e monitoring, contesto incui il programma dovra' operare etc. Tutto questo non dovra' superare le 15 pagine. Anche la lettura di questo documento diventa fondamentale. Come ulteriore supporto si puo' comunque fare riferimento anche ai documenti gia' presenti, come il POS e il PDS.
 Per quanto riguarda il testing invece si e' deciso di adottare, dove possibile, la presenza di test unitari che verranno implementati prima dello sviluppo del componente stesso e da uno sviluppatore diverso da quello che effettivamente sviluppera' il componente. Infine, durante la parte di collaudo verranno inoltre ideati anche dei test con dati fittizi che serviranno per controllare l'integrazione delle varie parti del prodotto nonche' le sue performance e controllo qualita' nei termini prestabiliti con il cliente. E' previsto comunque anche una risorsa che dovra' effettivamente validare il prodotto, questa poi puo' essere anche del committente. 
