@@ -34,7 +34,7 @@
 	- [Change Request](#change-request)
 	- [Project Impact Statement](#project-impact-statement)
 	- [Testing e Documentazione](#testing-e-documentazione)
-- [Monitoring & Control](#monitoring--control)
+- [Monitoring and Control](#monitoring-and-control)
 	- [Scope Bank](#scope-bank-1)
 	- [Issue Log](#issue-log)
 - [Closing Project](#closing-project)
@@ -340,7 +340,7 @@ Essendo un prodotto software enterprise, e' necessaria la presenza di un manuale
 In fase di analisi si e' anche pensato ad una forma *snella* di documentazione in modo che, nel caso fossero necessarie nuove risorse da inserire nel progetto, queste possano avere subito una rapida visione di quello che riguarda il progetto, in termini di: scopo, funzionalita' principali, metodologie di riferimento per il testing e monitoring, contesto incui il programma dovra' operare etc. Tutto questo non dovra' superare le 15 pagine. Anche la lettura di questo documento diventa fondamentale. Come ulteriore supporto si puo' comunque fare riferimento anche ai documenti gia' presenti, come il POS e il PDS.
 Per quanto riguarda il testing invece si e' deciso di adottare, dove possibile, la presenza di test unitari che verranno implementati prima dello sviluppo del componente stesso e da uno sviluppatore diverso da quello che effettivamente sviluppera' il componente. Infine, durante la parte di collaudo verranno inoltre ideati anche dei test con dati fittizi che serviranno per controllare l'integrazione delle varie parti del prodotto nonche' le sue performance e controllo qualita' nei termini prestabiliti con il cliente. E' previsto comunque anche una risorsa che dovra' effettivamente validare il prodotto, questa poi puo' essere anche del committente. 
 
-Monitoring & Control
+Monitoring and Control
 ============
 Nella fase di monitoraggio e controllo si ricapitolano tutti gli strumenti che sono utili per il controllo del progetto stesso, quindi per verificare se il progetto e' in schedula, come controllare che i requirements siano rispettati e su quale documentazione si fa riferimento.
 
