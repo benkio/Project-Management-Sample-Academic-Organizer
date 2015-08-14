@@ -346,4 +346,45 @@ Issue Log
 E' stato previsto un documento template per tenere traccia delle problematiche che sono sorte. In particolare in questo documento dovra' essere indicato se il problema riscontrato era stato previsto in un'analisi dei rischi e qundi inserire un'indentificativo che indichi effettivamente che tipo di rischio indentificato, se e' stata effettuata una richiesta di cambiamento apposita per il problema, anche qui con riferimento a quale richiesta si tratta.
 Il template per l'issue log e' inserito all'interno dei documenti dell'executing.
 
+Closing Project
+==========
+In questa sezione ci occuperemo di tutta la routine per la chiusura di progetto ipotizzando di essere riusciti ad arrivare a concludere tutti i requisiti in maniera soddisfacente e corretta.
 
+In particolare ci occuperemo di ricapitolare come sono stati raggiunti i requisiti necessari per chiudere il progetto e i documenti necessari per farlo in maniera corretta.
+
+
+
+Strategia di Implementazione e Collaudo
+-------
+Come gia' indicato nelle fasi precedenti si e' scelto di utilizzare una strategia a milestone separando i vari requisiti e impostando quindi un ciclo di iterazioni. Ogni ciclo mira ad una conclusione nel breve periodo e ad una seguente consegna del tutto al cliente in modo da rendere subito una parte del prodotto utilizzabile, abituare gli utilizzatori al prodotto e ottenere dei feedback in maniera rapita.
+
+Per quanto riguarda il *collaudo* si hanno varie fasi di collaudo, ogniuno dei quali avviene alla consegna di una milestone e quindi il progetto viene mantenuto cosi maggiormente sotto controllo
+
+Documentazione
+---------------
+Per quanto riguarda la documentazione si faccia riferimento al paragrafo relativo presente nella fase di executing.
+
+In breve viene previsto la costruzione di un manuale utente che ogni attivita' deve aggiornare con le modifiche apportate. Per controllare ulteriormente il manuale, a fine milestone, viene pianificata un'attivita' di revisione dello stesso per accertarsi della correttezza e come controllo delle attivita' stesse che sono state svolte. Durante questa attivita' si puo' approfittare con l'aggiornamento di altri documenti come il *project status report* di fine milestone.
+Inoltre e' presente anche una documentazione tecnica autogenerata che avviene durante la costruzione del codice stesso, ma non visibile all'utente per cercare di astrarsi dal codice e ottenere una descrizione discorsiva migliore.
+
+Accettazione da parte del Cliente
+-------------------------------------
+Quando anche l'ultimo collaudo e' avvenuto con successo, il progetto verra' sottoposto alla approvazione del cliente che dovra' effettivamente firmare un documento apposito fornito dalla amministrazione che attesta che il progetto ha soddisfatto i requisiti necessari e che quindi ha soddisfatto il cliente. Questo e' necessario per procedere con la chiusura del progetto stessoe richiede semplicemente della firma del project manager del committente, si faccia riferimento direttamente al documento (*Project Acceptance*)
+
+In particolare e' stato predisposto anche un template (*Project Closing Report*) che indica un riassunto di:
+* Tutti i deliverables
+* Lo scope e i suoi cambiamenti durante la realizzazione del progetto
+* Eventuale manutenzione e i suoi costi
+* Approvazione finale con firma
+
+E' necessario anche organizzare correttamente il *project netbook* che conterra' tutti i documenti sopra citati e i report delle varie riunioni che sono state effettuate.
+
+Installazione dei Deliverables
+----------------------------------
+Vista l'assenza di un prodotto precedente e la modalita di sviluppo scelta si e' deciso per un'installazione *phased approach* in quanto ad ogni milestone la funzionalita' sviluppata e collaudata veniva direttamente utilizzata dal cliente.
+
+Lessons Learned
+----------------
+Infine viene istituito un template interno all'azienda e destinato al miglioramento e alla realizzazione di progetti futuri che riassume le problematiche principali con il committente e in generale che si sono ottenute dalla realizzazione del progetto, e le relative contromisure che si possono pensare per ridurle.
+
+Questo documento e' molto importante perche' consente di mantenere traccia dell'esperienza acquisita all'interno del progetto e che questa rimanga appunto all'interno dell'azienda stessa.
