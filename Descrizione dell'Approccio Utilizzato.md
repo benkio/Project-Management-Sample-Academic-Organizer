@@ -232,7 +232,7 @@ Per maggior chiarezza vengono elencati i deliverables che la fase di planning de
 ###Project Definition Statement###
 All'interno del Project Definition Statement vengono raccolte in maniera dettagliata tutto quello che si e' deciso in fase di scoping, estendendo il POS. Cambia, oltre alla lunghezza del documento, anche il destinatario, che non sara' piu' il senior management ma pensi' il team aziendale. Questo fa si che si abbia un riferimento unico a tutto il team.
 
-Il Project Definition Statement non e' un documento che viene rielaborato ad ogni iterazione ocme invece avviene per gli altri documenti della fase di planning.
+Il Project Definition Statement non e' un documento che viene rielaborato ad ogni iterazione come invece avviene per gli altri documenti della fase di planning.
 
 ###Analisi Dei Rischi###
 Per l'analisi dei rischi e' stato preso il template gia' introdotto con il risk analiysis in fase di scoping ed e' stato effettuato in maniera peculiare per il requisito in esame. Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure. La presenza di un'analisi dei rischi a questo livello consente di individuare problematiche specifiche del requisito in esame e di prepararsi quindi nel caso qualcuno di quelli individuati si verifichi.
@@ -242,7 +242,8 @@ La WBS verra' indicata separatamente, una per ogni requisito, in questo modo sar
 Per quanto riguarda le dipendenze delle varie attivita' che si possono avere, queste vengono analizzate alla fine del processo che le individua e le formalizza all'interno della WBS. In particolare, per questo caso incui si creeranno diverse WBS, una per ogni ciclo di iterazione, gia' dalla seconda prodotta si potra' andare ad analizzare e vedere se una delle attivita' da svolgere ha delle somiglianze con una gia' effettuata, in modo da avere un confronto in stime, costi, risorse e problematiche che hanno caratterizzato la precedente attivita'.
  
 ###Stime Delle Attivita' e Dei Costi###
-Per le stime delle attivita' si e' deciso di utilizzare un consensus based seguendo una serie di round, da un minimo di 2 fino ad un massimo di 10 in modo da raggiungere una stima piu veritiera, il numero di round dipendera' prevalentemente dal come i valori del round precedente sono distanti tra di loro.
+Per le stime delle attivita' si e' deciso di utilizzare un consensus based seguendo una serie di round, da un minimo di 2 fino ad un massimo di 10 in modo da raggiungere una stima piu veritiera, il numero di round dipendera' prevalentemente dal come i valori del round precedente sono distanti tra di loro. Nel caso dopo 10 round non si sia raggiunta una convergenza nella stima, la decisione spetta al proprietario e responsabile dell'attivita'.
+Per semplificare questo processo il limite massimo dei partecipanti alle stime e' di 5 persone.
 
 Coloro che parteciperanno alle stime sono:
 
@@ -262,6 +263,7 @@ Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
 Per quantizzare le stime del lavoro si e' deciso di utilizzare la classica misurazione giorni/uomo. In particolare nel documento della stima verra' mostrato il tempo necessario stimato con le risorse associate. Questo e' spesso ricavato da esperienze precedenti e similari; in questo caso si adatteranno le tempistiche effettivamente riscontrate nel caso storico effettuando una proporzione con le risorse che si hanno al momento per ricavare il dato del tempo. Il project manager poi puo' aggiungere o rimuovere del tempo in base al fatto che, nella realizzazione del compito, sia presente una risorsa junior piuttosto che senior o nel caso ci siano altri fattori che possano influenzare li tempo.
 
 Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato.
+Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime delle tempistiche delle singole attivita'. Il calcolo e' agevolato dalla scelta dell'unita' di misura classica (giorni/uomo) che, anche se risulta non proprio ottimale per una stima corretta, puo' essere facilmente intuibile anche da reparti amministrativi, a cui puo' essere delegata la stima dei costi stessa, e da eventuali consulenti esterni o altri che non conoscono eventuali misurazioni alternative. Inoltre si riduce il trade off data da un'eventuale conversione da un'unita' di misura personalizzata adimensionale.
 
 ###Risorse Necessarie e Assegnamento###
 
