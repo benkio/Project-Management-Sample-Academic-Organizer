@@ -5,6 +5,7 @@
 	- [Glossario](#glossario)
 	- [Project Team](#project-team)
 - [Scoping](#scoping)
+	- [Introduzione al Progetto](#introduzione-al-progetto) 
 	- [Meetings](#meetings)
 		- [Stesura del Report - Meeting Agenda](#stesura-del-reportmeeting-agenda)
 		- [Partecipanti](#partecipanti)
@@ -51,6 +52,8 @@ Introduzione
 -------
 In questo documento verranno riassunte e motivate tutte le scelte utilizzate all'interno del progetto. Inoltre verranno poi aggiunte anche tutte quelle parti che riguardano le convenzioni extra-progetto  e che quindi non rientrano nella documentazione del progetto stesso ma bensi' in quella che dovrebbero essere le norme generali che governano tutti i progetti intrapresi dall'ipotetica azienda incui questo progetto viene sviluppato. Si cerchera' di tralasciare tutti quegli aspetti che non riguardano il project management in modo da renderlo il piu' snello possibile.
 
+All'intero del progetto saranno compilati principalmente i documenti relativi alle prime fasi di scoping e planning, mentre per i restanti documenti si e' preferito aggiungere solamente i template che verranno utilizzati con l'aggiunta di una descrizione delle scelte sempre in questo documento. Il tutto viene affrontato in questo modo anche perche' per certi documenti, in particolare in fasi avanzate del progetto, risulta difficile e dispendioso andare ad inventare situazioni che poi risultano semplicemente fini a se stesse, che non rientrano del vero scopo del progetto, che e' mostrare una possibile gestione di progetto sulla base di quello visto in universita' e quanto si puo' trovare in letteratura.
+
 Glossario
 -------
 - **Lezione**: Svolgimento effettivo dell'insegnamento
@@ -75,6 +78,12 @@ Chiaramente questo template puo' essere utilizzato in piu' occasioni, infatti il
 Scoping
 =======
 In questa sezione verranno racchiuse tutte le scelte relative alla parte di scoping. In particolare si e' deciso di suddividere i vari argomenti in base ai deliverables che i processi coinvolti dovranno produrre. In aggiunta viene discussa l'organizzazione dei meeting per ottenere i deliverables.
+
+Introduzione al Progetto
+-------
+Per introdurre al lettore l'ambito di progetto, quindi che cosa viene richiesto di realizzare all'azienda fittizia a cui questo progetto di project management fa riferimento, si e' stillato un documento nella documentazione di progetto che introduce brevemente il soggetto del progetto stesso, che cosa viene richiesto dal cliente, le sue aspettative e altro.
+
+Il tutto e' effettuato in maniera discorsiva e poco strutturata in modo da simulare il piu' possibile il risultato di una prima riunione tra il committente e l'azienda stessa. Quindi il tutto vuole apparire come un'introduzione grezza al progetto, la quale poi sara' affinata durante la realizzazione dello stesso che porteranno alla stesura dei vari documenti.
 
 Meetings
 -------
