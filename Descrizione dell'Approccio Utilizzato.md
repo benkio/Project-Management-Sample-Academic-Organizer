@@ -269,6 +269,9 @@ Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime del
 
 Le risorse necessarie per ciascuna attivita' e il loro assegnamento e' stato riportato nel documento relativo alle stime. In particolare per questa fase si noti come molti compiti vengano fatti fare da sviluppatori senior piuttosto che junior perche', essendo la parte iniziale del progetto e' necessario che tutto venga impostato correttamente e che quindi si sfrutti personale con maggiore esperienza. In ogni caso se una attivita' non viene considerata come critica e possiede abbastanza margine da essere completata in sicurezza, senza quindi avere degli impatti sul tempo finale di realizzazione e rilascio della milestone che viene consegnata a fine di ogni ciclo incrementale, allora puo' esser svolta in coppia tra uno sviluppatore senior e uno junior in modo da aumentare l'esperienza di quest'ultimo, la formazione e gli stimoli che ne derivano.
 
+Si noti infine come nel documento venga indicato il tipo di skill richiesto per la data attivita' dove e' necessaria una certa specializzazione.
+Per l'assegnazione vera e propria dei membri del team si faccia riferimento al Gantt
+
 ###Project Network Diagram###
 Una volta che si sono individuate le attivita' da effettuare e che queste sono state stimate, ora e' necessario individuare quali di queste sono dipendenti le une dalle altre, quali fanno quindi parte del percorso critico,le quali andranno gestite con particolare attenzione.
 
