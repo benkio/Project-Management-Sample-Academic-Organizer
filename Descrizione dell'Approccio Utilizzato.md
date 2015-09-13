@@ -170,6 +170,9 @@ E' apparso in fase di analisi che il committente fosse ben convinto per quanto r
 Di conseguenza con questo approccio posso pensare di pianificare piu iterazioni, una per requisito, ordinate in base alla priorita' dei requisiti stessi e alla fine di ogni iterazione fornire una versione del prodotto, magari pianificando una milestone, che possa fornire al cliente un'idea su come procedono i lavori e di conseguenza agire direttamente sulle modifiche da apportare.
 Quando infine il cliente si dira' soddisfatto del prodotto si procedera' con la fase di chiusura del progetto.
 
+Il ciclo di vita del progetto di conseguenza potrebbe essere chiaramente compatibile anche con una metodologia agile. Il tutto renderebbe piu' snelli i processi relativi al management a discapito di una minore formalita' nell'utilizzo di strumenti o template piu' rigorosi (sticky notes, vs project plan). Questa considerazione puo' tornare molto utile se, nello svolgimento del progetto ci si ritrovasse in deficit rispetto al pianificato e quindi si debba effettuare uno sprint sull'esecuzione di alcune attivita'. Il passaggio ad una metodologia' agile piu' aggressiva potrebbe essere la scelta giusta per recuperare tempo sulla schedula.
+Nel caso invece si riesca a rientrare nel pianificato il mio consiglio e' quello di continuare comunque a mantenere una metodologia' piu' classica.
+
 Analisi dei Rischi (Risk Analysis)
 --------------------------
 In questa sezione verranno presi in esame i rischi principali correlati con il progetto, di conseguenza saranno classificati per gravita e per la probabilita' che questi si verifichino. In questo modo si sara' in grado di stimare effettivamente quanto e' il rischio complessivo dell'intero progetto e quindi anche influenzare la prioritizzazione e realizzazione delle attivita' da svolgere relative ai requisiti al fine di ridurre al minimo la possibilita' di rischi, oppure influenzare effettivamente la scelta del senior management riguardo la partenza o meno dell'intero progetto.
@@ -282,8 +285,10 @@ Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, ques
 
 Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 1 giorno di durata.
 
+Una possibile aggiunta che si puo' effettuare alla fase di pianificazione riguarda l'aggiunta delle attivita' di monitoring, come il collaudo alla fine di ogni requisito ad esempio, oppure si potrebbe utilizzare il gantt anche come strumento della pianificazione delle attivita' di scoping.
+
 ###Scope Bank###
-Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt
+Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt.
 
 Executing
 ==============
