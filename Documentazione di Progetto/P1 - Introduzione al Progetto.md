@@ -20,7 +20,7 @@ Per quanto riguarda le risorse:
  - Prevedere la presenza di attributi aggiuntivi per le risorse (come ad esempio per le aule la presenza di PC o di accesso ai disabili, edificio, citta'. Oppure per i docenti la matricola).
  - Dare la possibilita' di raggruppare le risorse per strutture (Dipartimenti, facolta', edifici...o in maniera personalizzata)
 
-Si richiede richiede inoltre che l'applicativo consenta di:
+Si richiede inoltre che l'applicativo consenta di:
 
  - Visualizzare dei report per risorsa (es. impegni in un aula per la settimana/mese) *sistema di reportistica*
  - Controllare che non ci sia sovrapposizione di risorse. (es. aula/docente associata a due lezioni che avvengono nello stesso momento) o che ad una lezione manchi l'aula o l'associazione con il corso.
