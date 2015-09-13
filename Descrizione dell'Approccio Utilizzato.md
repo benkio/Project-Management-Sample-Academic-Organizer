@@ -287,6 +287,11 @@ Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 
 
 Una possibile aggiunta che si puo' effettuare alla fase di pianificazione riguarda l'aggiunta delle attivita' di monitoring, come il collaudo alla fine di ogni requisito ad esempio, oppure si potrebbe utilizzare il gantt anche come strumento della pianificazione delle attivita' di scoping.
 
+Si noti inoltre come in ogni attivita' sono presenti almeno 2 risorse, questo e' voluto per varie ragioni:
+	* Avere diversi punti di vista e feedback sull'attivita' stessa
+	* Gestire all'interno dell'attivita' anche le parti relative a Testing e Documentazione, si veda la parte nella sezione "altre policies"
+	* Formazione e condivisione della conoscenza
+
 ###Scope Bank###
 Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt.
 
@@ -340,7 +345,8 @@ Le comunicazioni interne e i meetings che avvengono tra i membri del team sono p
 	* Quali sono quelle che devono essere fatte e che sono pianificate.
 	* I cambiamenti approvati e da esegiure
 	* Se il progetto e' in schedula oppure no
-Si fa sempre riferimento anche ad altri documenti importani come la WBS.
+
+Si fa sempre riferimento anche ad altri documenti importanti come la WBS.
 
 Change Request
 ---------------
@@ -395,8 +401,6 @@ Closing Project
 In questa sezione ci occuperemo di tutta la routine per la chiusura di progetto ipotizzando di essere riusciti ad arrivare a concludere tutti i requisiti in maniera soddisfacente e corretta.
 
 In particolare ci occuperemo di ricapitolare come sono stati raggiunti i requisiti necessari per chiudere il progetto e i documenti necessari per farlo in maniera corretta.
-
-
 
 Strategia di Implementazione e Collaudo
 -------
