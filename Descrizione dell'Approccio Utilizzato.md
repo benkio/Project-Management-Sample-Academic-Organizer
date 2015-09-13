@@ -78,7 +78,7 @@ In questa sezione verranno racchiuse tutte le scelte relative alla parte di scop
 
 Meetings
 -------
-Si vogliono discutere i principali meetings necessari per il raggiungimento dei deliverables relativi allo scoping, chi sara' presente a questi meetings e soprattutto identificare in maniera rigorosa (ma non per questo immutabile) quelle che sono le tempistiche per quanto riguarda la conclusione della fase di scoping.
+Si vogliono discutere i principali meetings necessari per il raggiungimento dei deliverables relativi allo scoping e al planning, chi sara' presente a questi meetings e soprattutto identificare in maniera rigorosa (ma non per questo immutabile) quelle che sono le tempistiche per quanto riguarda la conclusione della fase di scoping.
 Nel caso sia necessario, nel corso del tempo, effettuare nuove riunioni al fine di raffinare qualche deliverables a fronte di cambiamenti di scope dettati da una qualsiasi causa (eg. richieste del committente, problematiche tecniche) e' necessario aggiungerla alla lista che si trova alla fine della sezione
 
 ###Stesura del Report[Meeting Agenda]###
