@@ -290,6 +290,8 @@ Una possibile aggiunta che si puo' effettuare alla fase di pianificazione riguar
 ###Scope Bank###
 Si e' deciso di mantenere uno time bank di 2 settimane per questo primo requisito. Chiaramente il valore del time bank cambia dalla difficolta' del requisito stesso e dalla lunghezza complessiva che viene stimata per portarlo a termine. L'effettiva presenza del time bank si puo' ottenere dalle date di inizio/fine dei requisiti che si susseguono, all'interno dei vari Gantt.
 
+Una possibile obbiezione lecita che si puo' sollevare a questa scelta e' che questa riserva non viene visualizzata correttamente all'interno del pianificato. Quindi se lo si preferisce si puo' pensare ad un'attivita' fittizia del gantt che indica lo scope bank.
+
 Executing
 ==============
 
@@ -300,7 +302,7 @@ Responsability Matrix
 Per l'assegnazione delle responsabilita' si e' deciso di utilizzare il classico template a matrice. Questo template e' stato inserito in questa fase perche' comunque si tratta di un documento interno e facile da gestire/costruire, ma a mio avviso la questione della responsabilita' delle varie attivita' puo' essere anche anticipato alla costruzione del gantt nella fase di planning, infatti lo strumento che si e' utilizzato in questo progetto per la costruzione del gantt gia' prevedeva la possibilita' di istituire uno o piu responsabili dell'attivita' quando a questa vengono assegnate le risorse.
 
 In piu' pero' nel template della matrice devono essere anche segnate:
-+ Le persone coinvolte 
+* Le persone coinvolte 
 * Quelle che devono essere informate
 * Quelle che devono assitere il responsabile
 * Quelle che devono approvare l'attivita' e il responsabile
