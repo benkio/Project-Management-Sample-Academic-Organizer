@@ -69,6 +69,9 @@ Questa parte sara' ricorrente durante tutto il progetto perche', in base alle fa
 
 Di conseguenza, inizialmente, prima del progetto di scoping e' necessario andare a definire **chi e' il project manager sia lato committente che lato fornitore** che si occupera' della gestione del progetto e quindi che ne assumera' le principali responsabilita'. Insieme a questi chiaramente anche i loro collaboratori, infatti si puo' gestire un progetto a livello strategico anche in piu' persone, magari con esperienza nel settore, che possono dare un valido contributo e un diverso punto di vista.
 
+Per far cio' si puo' trovare nella documentazione di progetto il template relativo al team.
+Chiaramente questo template puo' essere utilizzato in piu' occasioni, infatti il team viene scelto di mano in mano che le varie fasi del progetto si esplicano. Andando a scegliere in diversi momenti le figure necessarie alle varie fasi del progetto stesso.
+
 Scoping
 =======
 In questa sezione verranno racchiuse tutte le scelte relative alla parte di scoping. In particolare si e' deciso di suddividere i vari argomenti in base ai deliverables che i processi coinvolti dovranno produrre. In aggiunta viene discussa l'organizzazione dei meeting per ottenere i deliverables.
