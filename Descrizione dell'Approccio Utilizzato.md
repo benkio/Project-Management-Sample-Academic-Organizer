@@ -36,6 +36,10 @@
 	- [Project Impact Statement](#project-impact-statement)
 	- [Testing e Documentazione](#testing-e-documentazione)
 - [Monitoring and Control](#monitoring-and-control)
+	- [Reporting](#reporting)
+	- [Indexes](#indexes)
+	- [Risk Control](#risk-control)
+	- [Quality Control](#quality-control)
 	- [Scope Bank](#scope-bank-1)
 	- [Issue Log](#issue-log)
 - [Closing Project](#closing-project)
@@ -378,13 +382,29 @@ In particolare il paragrafo che parla del meetings potrebbe tranquillamente rien
 * *Daily Meetings*: hanno un ruolo tipicamente di controllo, in quanto serve per avere un feedback diretto del team su come procede il lavoro o se si devono prevedere dei ritardi o un riassegnamento delle risorse.
 * *Project Review*: hanno un ruolo ricaptolativo sul progetto per avere una visione di insime su cosa si e' fatto, cosa si deve fare e i problemi che sono sorti fino adesso. Il tutto viene poi formalizzato nell'appsito template (*Project Status Report*)
 
+Reporting
+------
+
 Si e' deciso di non utilizzare un sistema di reporting apposito ma di basarsi sui documenti gia' precedentemente descritti, in particolare:
 * Si cerca di mantenere il piu' possibile aggiornato il *Gantt* attraverso revisioni settimanali che possano andare a evidenziare problematiche nell'assegnamento delle risorse. Se poi avvengono cambiamenti notevoli direttamente da un daily meeting allora puo' essere utile intervenire tempestivamente sul gantt per verificare effettivamente il carico di lavoro sulle risorse.
-* Tramite un'analisi dei *Project Status Report* si puo' istituire un *Cumulative Report*, ad esempio ogni due status reports, per  capire se l'andamento del progetto e' con tendenza negativa (es. aumento del cambiamento sopra il preventivato e ritardo conseguente) e quindi pensare a delle azioni correttive.
+* Tramite un'analisi dei *Project Status Report* si puo' istituire un **Cumulative Report**, ad esempio ogni due status reports, per  capire se l'andamento del progetto e' con tendenza negativa (es. aumento del cambiamento sopra il preventivato e ritardo conseguente) e quindi pensare a delle azioni correttive.
 
 In ogni caso il tempo tipico con cui avviene il controllo del progetto e' al rilascio della milestone e quindi con una tempistica di un mese, anche meno in relazione al requisito.
-Come strumento per il senior management e' anche richiesto la creazione di un report visuale di tipo *Earned Value* in modo da avere un feedback su quanto e' il business value fino ad ora realizzato. Si calcoleranno anche i due indici visti a lezione, rispettivamente sulla scedula e sui costi. Per quanto riguarda la schedula ci si aiutera' anche con il Gantt.
+Come strumento per il senior management e' anche richiesto la creazione di un report visuale di tipo **Earned Value** in modo da avere un feedback su quanto e' il business value fino ad ora realizzato.
+
+Indexes
+-------
+
+Si calcoleranno anche i due indici visti a lezione, rispettivamente sulla scedula e sui costi. Per quanto riguarda la schedula ci si aiutera' anche con il Gantt.
 Vista la natura del progetto ci si aspetta una classica curva ad S visto che nelle fasi iniziali sono previste anche attivita' di analisi del mercato e quindi andare anche a verificare e adottare tecniche innovative e nuove. Queste possono portare sul lungo periodo un beneficio, ma le tempistiche anche di training del personale e' da mettere in conto e quindi possono aumentare il tempo di start-up. E' fortemente consigliato impostare uno scope bank piu ampio quindi per le prime fasi.
+
+Risk Control
+-------
+Durante i *Project Status Reports* vengono controllati anche i rischi pianificati a inizio iterazione per verificare se qualcuno di questi si e' verificato e controllare possibili contromisure da attuare nella prossima iterazione se possibile.
+
+Quality Control
+--------
+Allo stesso modo sempre durante il collaudo vengono controllate le **Condition of Satisfaction** riguardanti il requisito in esame e quelli precedentemente gia' sviluppati in modo da controllare che la qualita' dell'operato sia correttamente rispettato, altrimenti si discute se e' necessario prevedere un'iterazione per sistemare le problematiche di performance e le condizioni non soddisfatte o se e' sufficiente introdurre un paio di attivita' per l'iterazione successiva.
 
 Scope Bank
 ------------
